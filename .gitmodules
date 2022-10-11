@@ -7,3 +7,9 @@
 [submodule "DesignPattern"]
 	path = DesignPattern
 	url = https://github.com/jaredtao/DesignPattern.git
+[submodule "interviews"]
+	path = interviews
+	url = https://github.com/yzhu798/CodingInterviewsNotes.git
+[submodule "design_pattern"]
+	path = design_pattern
+	url = https://github.com/jaredtao/DesignPattern.git
