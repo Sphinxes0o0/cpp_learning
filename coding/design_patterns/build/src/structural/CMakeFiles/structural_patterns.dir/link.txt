@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstructural_patterns.a CMakeFiles/structural_patterns.dir/structural_placeholder.cpp.o
+/usr/bin/ranlib libstructural_patterns.a

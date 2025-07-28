@@ -1,0 +1,12 @@
+/home/sphinx/learn/design_patterns/build/CMakeFiles/design_patterns.dir
+/home/sphinx/learn/design_patterns/build/CMakeFiles/edit_cache.dir
+/home/sphinx/learn/design_patterns/build/CMakeFiles/rebuild_cache.dir
+/home/sphinx/learn/design_patterns/build/src/creational/CMakeFiles/creational_patterns.dir
+/home/sphinx/learn/design_patterns/build/src/creational/CMakeFiles/edit_cache.dir
+/home/sphinx/learn/design_patterns/build/src/creational/CMakeFiles/rebuild_cache.dir
+/home/sphinx/learn/design_patterns/build/src/structural/CMakeFiles/structural_patterns.dir
+/home/sphinx/learn/design_patterns/build/src/structural/CMakeFiles/edit_cache.dir
+/home/sphinx/learn/design_patterns/build/src/structural/CMakeFiles/rebuild_cache.dir
+/home/sphinx/learn/design_patterns/build/src/behavioral/CMakeFiles/behavioral_patterns.dir
+/home/sphinx/learn/design_patterns/build/src/behavioral/CMakeFiles/edit_cache.dir
+/home/sphinx/learn/design_patterns/build/src/behavioral/CMakeFiles/rebuild_cache.dir
