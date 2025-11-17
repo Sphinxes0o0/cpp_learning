@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbehavioral_patterns.a CMakeFiles/behavioral_patterns.dir/demo.cpp.o
-/usr/bin/ranlib libbehavioral_patterns.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcreational_patterns.a CMakeFiles/creational_patterns.dir/creational_placeholder.cpp.o
-/usr/bin/ranlib libcreational_patterns.a

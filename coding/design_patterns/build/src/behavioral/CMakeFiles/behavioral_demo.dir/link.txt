@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/behavioral_demo.dir/main.cpp.o -o behavioral_demo  libbehavioral_patterns.a 
