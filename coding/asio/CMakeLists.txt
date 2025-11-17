@@ -15,6 +15,29 @@ pkg_check_modules(ASIO REQUIRED asio)
 # 查找线程库
 find_package(Threads REQUIRED)
 
+# 查找clang-format工具
+find_program(CLANG_FORMAT "clang-format")
+if(CLANG_FORMAT)
+  # 获取所有源文件
+  file(GLOB_RECURSE FORMAT_SOURCE_FILES "*.cc" "*.h" "*.hpp")
+  
+  # 添加格式化目标
+  add_custom_target(
+    format
+    COMMAND ${CLANG_FORMAT} -i -style=file ${FORMAT_SOURCE_FILES}
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    COMMENT "Formatting source code with clang-format"
+  )
+  
+  # 添加格式检查目标（用于CI等环境）
+  add_custom_target(
+    check-format
+    COMMAND ${CLANG_FORMAT} -output-replacements-xml -style=file ${FORMAT_SOURCE_FILES} | grep -q "replacement" && echo "Code formatting differs from expected" && exit 1 || echo "Code formatting is correct"
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    COMMENT "Checking code formatting with clang-format"
+  )
+endif()
+
 # 添加编译选项
 add_compile_options(-Wall -Wextra -Wpedantic)
 add_compile_definitions(ASIO_STANDALONE)
