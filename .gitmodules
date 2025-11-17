@@ -1,12 +1,3 @@
-[submodule "samples/emeralddb"]
-	path = samples/emeralddb
-	url = https://github.com/wangzhonnew/emeralddb.git
-[submodule "samples/SPSCQueue"]
-	path = samples/SPSCQueue
-	url = https://github.com/rigtorp/SPSCQueue.git
-[submodule "DesignPattern"]
-	path = DesignPattern
-	url = https://github.com/jaredtao/DesignPattern.git
 [submodule "interviews"]
 	path = interviews
 	url = https://github.com/yzhu798/CodingInterviewsNotes.git
